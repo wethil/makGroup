@@ -1,0 +1,65 @@
+/* Apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Reset */
+html, body, div {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0 0 .35em 0;
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 2.8125rem;
+    font-weight: 400;
+    line-height: 1.13333em;
+}
+
+h2 {
+    margin: 0 0 .35em 0;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 1.3125rem;
+    font-weight: 500;
+    line-height: 1.16667em;
+}
+
+p {
+    margin: 0 0 1em 0;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.46429em;
+}
+
+.rootContainer{
+    height:100vh;
+    background: red;
+    width: 100vw;
+}
+.menuItemPhotoContainer {
+    display: flex;
+    border: 1px solid black;
+}
+
+.flex{
+    display: flex;
+}
+
+.blue{
+    background: blue;
+}
+
+.red{
+    background: red;
+}
+
+.primaryBorder{
+    border: 1px solid #3949ab;
+    border-radius: 3%;
+}
